@@ -1,0 +1,54 @@
+* {
+    margin: 0 auto;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    
+}
+nav {
+    border-top: 1px solid rgb(172, 170, 170);
+    border-bottom: 1px solid rgb(172, 170, 170);
+}
+
+.logo1 {
+    width: 70px;
+    height: 40px; 
+    margin: 0px 16px 0px 16px; 
+    margin-left: 82px;
+}
+
+.logo2 {
+    width: 70px;
+    height: 40px; 
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.botoes_nav {
+    width: 14px;
+    height: 14px; 
+    border-radius: 100px; 
+    background-color: none;
+}
+
+.botoes2_nav {
+    width: 16px;
+    height: 16px;  
+    border-radius: 100px; 
+    background-color: none;
+}
+
+.botoes_acessibilidade {
+    padding: 12px 0px 0px;
+}
+
+.botoes_right_nav {
+    width: 16px;
+    height: 16px;  
+    border-radius: 100px; 
+    background-color: none;
+    margin-left: -64px;
+}
+
+.search {
+    margin-right: 100px;
+}
