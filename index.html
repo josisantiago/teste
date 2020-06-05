@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>SKY: Teste FrontEnd - Josiane Santiago</title>
 
@@ -51,6 +51,66 @@
             </div>
         </nav>
     </section>
+    <div class="text-center">
+        <div class="options d-flex flex-column flex-lg-row justify-content-around font-weight-bold">
+            <a href="" target="_blank">
+                <span>Filmes</span>
+            </a>
+            <a href="" target="_blank">
+                <span>Séries</span>
+            </a>
+            <a href="" target="_blank">
+                <span class="">Canais</span>
+            </a>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="img_caroussel carousel-item  active">
+                <div class="col-3 float-left">
+                    <img class="img_caroussel d-block w-100" src="img/aladin.jpeg" alt="0">
+                </div>
+
+                <div class="col-3 float-left">
+                    <img class="img_caroussel d-block w-100 active" src="img/spider.png" alt="1">
+                </div>
+
+                <div class="col-3 float-left">
+                    <img class="img_caroussel  d-block w-100" src="img/mib.jpeg" alt="2">
+                </div>
+            </div>
+
+            <div class="img_caroussel carousel-item">
+                <div class="col-3 float-left">
+                    <img class="img_caroussel d-block w-100" src="img/spider.png" alt="0">
+                </div>
+
+                <div class="col-3 float-left">
+                    <img class="img_caroussel d-block w-100" src="img/aladin.jpeg" alt="1">
+                </div>
+
+                <div class="col-3 float-left">
+                    <img class="img_caroussel  d-block w-100" src="img/mib.jpeg" alt="2">
+                </div>
+            </div>
+
+            <!-- controladores maior e menor -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
     
 
  </body>
