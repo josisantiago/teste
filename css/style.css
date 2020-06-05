@@ -109,7 +109,68 @@ a:hover {
     display: flex;  
 }
 
+.sky2 {
+    width: 48px;
+    height: 48px; 
+    margin-left: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.social {
+    width: 100px;
+    height: 25px; 
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.rodape-logos {
+    width: 250px;
+    display: flex;
+}
+
+.logos-apps {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.minha_sky {
+    font-size: 18px;
+}
+
+.sobre {
+    margin-top: 10px;
+}
+
+.lista {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.faixa_final {
+    display: flex;
+    align-content: center;
+} 
+
+.faixa_final a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.register {
+    width: 15px;
+    height: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: left;
+    width: 80%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
 
 @media(max-width: 1000px){
     .categoria {
